@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>AZSOFT Extension</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        iframe {
+            width: 100%;
+            min-height:90vh;
+            border: none;
+        }
+    </style>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container-fuild">
+        <div class="row">
+            <div class="col-md-2 col-sm-2">
+
+            </div>
+            <div class="col-md-10 col-sm-10">
+                <ul class="nav nav-tabs nav-justified">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#bangGia"><b>Bảng Giá</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#banHang"><b>Bán Hàng</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#khoHang"><b>Kho Hàng</b></a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div id="bangGia" class="tab-pane container active">
+                        <iframe src="http://mokhoadienthoai.net/"></iframe>
+                    </div>
+                    <div id="banHang" class="tab-pane container fade">
+                        <iframe src="https://azsoft.kiotviet.vn/sale/#/"></iframe>
+                    </div>
+                    <div id="khoHang" class="tab-pane container fade">
+                        <iframe src="https://azsoft.kiotviet.vn/#/Products"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
